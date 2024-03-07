@@ -33,10 +33,12 @@ p{
 
 .box{
     float: left;
-    width: calc((100% / 3) - 15px );
+    width: calc((100% / 3) - 5px );
     height: 150px;
     margin-left: 5px;
     background-color: rgb(15,14,23);
+    border: 5px solid rgb(249,249,248);
+    border-radius: 10px;
 }
 
 .photo{
