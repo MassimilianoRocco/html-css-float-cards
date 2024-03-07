@@ -15,3 +15,53 @@ header{
     color: rgb(229,49,112);
     font-family: sans-serif;
 }
+
+p{
+    text-align: center;
+}
+
+.cards-container{
+    margin: 50px auto;
+}
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+.box{
+    float: left;
+    width: calc((100% / 3) - 15px );
+    height: 150px;
+    margin-left: 5px;
+    background-color: rgb(15,14,23);
+}
+
+.photo{
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+
+
+.inside-text{
+    color: white;
+    display: inline-block;
+    width: 60%;
+    padding: 10px ;
+    text-align: center;
+    overflow: auto;
+}
+
+.inside-text h2,h4{
+    margin-top: 10px;
+}
+
+
+a{
+    color: skyblue;
+    display: inline-block;
+    margin-top: 20px;
+}
